@@ -1,19 +1,23 @@
+'use strict';
+
 // numbers
-x = 42;
-pi = 3.1415
+let x = 42;
+let pi = 3.1415
 
 // String
-text = 'Hallo Welt';
+let text = 'Hallo Welt';
 text = "Hallo Welt";
-answer = `Ergebnis: ${pi}`;
+let answer = `Ergebnis: ${pi}`;
 
 // Boolean
 
-isSunny = true;
-isRainy = false;
+let isSunny = true;
+let isRainy = false;
 
 // undefined
 x = undefined;
 
 // null
 x = null;
+
+console.log(pi);
