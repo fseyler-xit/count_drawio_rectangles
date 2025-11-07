@@ -65,5 +65,4 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     // const rectangles = parseDrawioRectangles(data);
     const rectangles = countRectangles(data);
     console.log(`Gefundene Rechtecke: ${rectangles}`);
-
 });
